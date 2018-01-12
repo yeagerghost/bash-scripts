@@ -8,4 +8,4 @@ path="/Path goes here"
 
 find_command="find \"$path\" | grep -E \"$illegal_string_regex\""
 
-eval $find_command > illegal_names
+eval $find_command > illegal_name_list
